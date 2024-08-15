@@ -1,6 +1,8 @@
 body {
-    background-color: rgb(255, 255, 165);
     padding: 19% ;
+    background-color: rgb(187, 101, 248);
+    font-family: Helvetica;
+    color: green;
 }
 
 .image{
@@ -11,10 +13,15 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
+    color: rgb(44, 41, 41);
+    border: 1px solid rgb(127, 128, 84);
+    background-color: #ffe75f;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link-button:hover {
+    color: rgb(31, 21, 167);
 }
